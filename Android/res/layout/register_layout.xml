@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/psbe2">
+
+        <Button
+            android:id="@+id/Register"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:background="#7191a8"
+            android:text="@string/register"
+            android:textColor="#ffffff" />
+
+        <LinearLayout
+            android:id="@+id/loginPanel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/Register"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="100dp"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/email_address"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/shape"
+                android:ems="10"
+                android:hint="@string/email_address"
+                android:singleLine="true"
+                android:textColorHint="#afbababa" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/set_user"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/shape"
+                android:ems="10"
+                android:hint="@string/set_user"
+                android:singleLine="true"
+                android:textColorHint="#afbababa" />
+
+            <EditText
+                android:id="@+id/set_password"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/shape"
+                android:ems="10"
+                android:hint="@string/set_password"
+                android:password="true"
+                android:singleLine="true"
+                android:textColorHint="#afbababa" />
+        </LinearLayout>
+
+</RelativeLayout>

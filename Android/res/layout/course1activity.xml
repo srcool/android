@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_course1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   
+      <LinearLayout
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:background="#ffffff" >
+
+         
+          <FrameLayout
+              android:layout_width="match_parent"
+              android:layout_height="230dp" >
+              
+               <ImageView
+                   android:id="@+id/id_course1Img"
+                   android:layout_width="match_parent"
+                   android:layout_height="230dp"
+                   android:contentDescription="@string/desc_course1Img"
+                   android:background="@drawable/whale" />
+               
+                <TextView
+                    android:id="@+id/id_course1Namebackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:background="#88ffffff"/>
+                
+                <TextView
+                    android:id="@+id/id_course1Name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/course_name"
+                    android:textSize="25dp" 
+                    android:textColor="#000000"/>
+               
+              
+              
+              
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/id_course1Summarize"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_margin="10dp"
+              android:text="@string/text_course1Summarize"
+              android:textSize="20sp" 
+              android:textColor="#bd353f"/>
+
+          <TextView
+              android:id="@+id/id_course1SummarizeIfm"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_margin="5dp"
+              android:text="@string/text_course1SummarizeIfm"
+              android:textSize="15sp"
+              android:textColor="#9f000000" />
+
+          <TextView
+              android:id="@+id/id_course1AchieAsse"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_margin="10dp"
+              android:text="@string/text_course1AchieAsse"
+              android:textSize="20sp" 
+              android:textColor="#bd353f"/>
+
+          <TextView
+              android:id="@+id/id_course1AchieAsseIfm"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_margin="5dp"
+              android:text="@string/text_course1AchieAsseIfm"
+              android:textSize="15sp" 
+              android:textColor="#9f000000"/>
+          
+          <TextView
+              android:id="@+id/id_course1MethodologyOfPerformance"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_margin="10dp"
+              android:text="成绩评估方式"
+              android:textSize="20sp" 
+              android:textColor="#bd353f"/>
+
+          <TextView
+              android:id="@+id/id_course1MethodologyOfPerformanceInfo"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_margin="5dp"
+              android:text="成绩评估方式"
+              android:textSize="15sp" 
+              android:textColor="#9f000000"/>
+
+          <TextView
+              android:id="@+id/id_course1TimePlace"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_margin="10dp"
+              android:text="@string/text_course1TimePlace"
+              android:textSize="20sp" 
+              android:textColor="#bd353f"/>
+
+          <TextView
+              android:id="@+id/id_course1TimePlaceIfm"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_margin="5dp"
+              android:text="@string/text_course1TimePlaceIfm"
+              android:textSize="15sp" 
+              android:textColor="#9f000000"/>
+          
+          <Button
+            android:id="@+id/collectionBtn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="18dp"
+            android:text="@string/collection" 
+            android:textColor="#ffffff"
+            android:background="#eb737c"/>
+      </LinearLayout>
+
+</ScrollView>
+

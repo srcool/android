@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" 
+    android:background="#ffffff">
+    
+    <ImageView 
+        android:id="@+id/id_courseImg"
+        android:layout_width="140dp"
+        android:layout_height="90dp"
+        android:layout_margin="5dip"/>
+    
+    <LinearLayout 
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        
+        <TextView 
+            android:id="@+id/id_courseName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:textSize="20sp"
+            android:text="课程名"
+            android:textColor="#9f000000"/>
+        
+        <TextView 
+            android:id="@+id/id_teacherName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:textSize="15sp"
+            android:text="教师名"
+            android:textColor="#9f000000"/>
+        
+        <TextView 
+            android:id="@+id/id_courseAttribute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:textSize="10sp"
+            android:text="课程性质"
+            android:textColor="#68171b"/>
+                
+    </LinearLayout>
+</LinearLayout>

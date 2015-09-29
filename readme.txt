@@ -1,0 +1,1 @@
+CoursePlus是我在大二的时候着手开发的一个android手机APP，实现了注册登录、查看课程信息、收藏、查找课程等功能。后台应用到了leancloud。
